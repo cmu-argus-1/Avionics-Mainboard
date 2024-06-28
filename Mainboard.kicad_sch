@@ -360,7 +360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "mainboard:MountingHole"
 			(at 26.67 179.07 0)
 			(effects
 				(font
@@ -499,7 +499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "mainboard:MountingHole"
 			(at 26.67 184.15 0)
 			(effects
 				(font
@@ -573,7 +573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "mainboard:MountingHole"
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -647,7 +647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "mainboard:MountingHole"
 			(at 26.67 168.91 0)
 			(effects
 				(font

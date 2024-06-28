@@ -1,3 +1,5 @@
 (sym_lib_table
   (version 7)
+  (lib (name "Mainboard")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/Mainboard.kicad_sym")(options "")(descr ""))
+  (lib (name "BatteryBoard")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/BatteryBoard.kicad_sym")(options "")(descr ""))
 )

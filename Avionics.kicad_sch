@@ -6343,6 +6343,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cdb516-eb05-4333-8f30-ed8c2695ca69")
+	)
+	(wire
+		(pts
 			(xy 77.47 77.47) (xy 77.47 80.01)
 		)
 		(stroke
@@ -7431,6 +7441,16 @@
 		)
 		(uuid "72e90a8c-6db4-4c3e-82f3-c70d8b57f17d")
 	)
+	(wire
+		(pts
+			(xy 81.28 118.11) (xy 85.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ef67c1-3841-4b2c-be25-632efcc0dde7")
+	)
 	(polyline
 		(pts
 			(xy 66.802 116.84) (xy 65.278 116.84)
@@ -8303,16 +8323,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 85.09 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb7105f4-b2e4-4c00-96cd-711ff17d1e31")
-	)
-	(wire
-		(pts
 			(xy 64.77 115.57) (xy 85.09 115.57)
 		)
 		(stroke
@@ -8320,16 +8330,6 @@
 			(type default)
 		)
 		(uuid "bd214381-cb93-418f-89bf-02cb1308710c")
-	)
-	(wire
-		(pts
-			(xy 81.28 120.65) (xy 85.09 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0680517-f374-4692-9d2a-a1ec01999706")
 	)
 	(wire
 		(pts
@@ -8360,6 +8360,16 @@
 			(type default)
 		)
 		(uuid "c4459d20-d12f-4479-ace6-f82b05813f66")
+	)
+	(wire
+		(pts
+			(xy 81.28 123.19) (xy 85.09 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dc2c84-74dd-4049-ad86-db5dc4359616")
 	)
 	(wire
 		(pts
@@ -8893,16 +8903,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 118.11) (xy 85.09 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f772f602-9149-4116-9338-694638155e92")
-	)
-	(wire
-		(pts
 			(xy 208.28 78.74) (xy 208.28 77.47)
 		)
 		(stroke
@@ -8971,7 +8971,7 @@
 		)
 		(uuid "feb0f435-83fb-4ac6-82d4-45e31f598620")
 	)
-	(text "SDA2"
+	(text "SDA3"
 		(exclude_from_sim no)
 		(at 65.786 150.114 0)
 		(effects
@@ -9002,7 +9002,7 @@
 		)
 		(uuid "189cc4db-9f53-49a4-8111-642be46e91b6")
 	)
-	(text "I2C2\nSERCOM1"
+	(text "I2C3\nSERCOM1"
 		(exclude_from_sim no)
 		(at 64.516 150.368 0)
 		(effects
@@ -9013,7 +9013,7 @@
 		)
 		(uuid "1d9cf276-a274-4371-a0a5-e920ea9937f1")
 	)
-	(text "SDA3"
+	(text "SDA2"
 		(exclude_from_sim no)
 		(at 65.786 165.354 0)
 		(effects
@@ -9035,7 +9035,7 @@
 		)
 		(uuid "2dd11384-b5eb-446a-8500-7c8c23787bb1")
 	)
-	(text "SCL3"
+	(text "SCL2"
 		(exclude_from_sim no)
 		(at 65.786 166.624 0)
 		(effects
@@ -9057,7 +9057,7 @@
 		)
 		(uuid "34797bd5-2095-44d3-9674-874c9f07bf46")
 	)
-	(text "SCL2"
+	(text "SCL3"
 		(exclude_from_sim no)
 		(at 65.786 151.384 0)
 		(effects
@@ -9164,7 +9164,7 @@
 		)
 		(uuid "69b2874d-d85b-4866-9244-01178552df93")
 	)
-	(text "JETSON USART\nSERCOM1"
+	(text "JETSON SPI\nSERCOM0"
 		(exclude_from_sim no)
 		(at 64.516 120.65 0)
 		(effects
@@ -9264,7 +9264,7 @@
 		)
 		(uuid "b93539c6-5b85-4e3e-b7f3-9cc971bec6ca")
 	)
-	(text "I2C3\nSERCOM3"
+	(text "I2C2\nSERCOM3"
 		(exclude_from_sim no)
 		(at 64.516 165.608 0)
 		(effects
@@ -9406,27 +9406,7 @@
 		)
 		(uuid "e023d003-45e4-4480-a614-bd3bda88d425")
 	)
-	(global_label "JETSON_TX"
-		(shape bidirectional)
-		(at 81.28 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09cfbc6c-8dee-4fa1-8541-2efdb4bb8bb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JETSON_XCK"
+	(global_label "JETSON_SCK"
 		(shape bidirectional)
 		(at 81.28 120.65 180)
 		(effects
@@ -9435,7 +9415,7 @@
 			)
 			(justify right)
 		)
-		(uuid "1000eeae-8d53-4513-b264-fd8fd04706be")
+		(uuid "093d8287-5396-47d1-aeda-fe25105ecc22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.28 120.65 0)
 			(effects
@@ -9528,9 +9508,9 @@
 			)
 		)
 	)
-	(global_label "PB06"
+	(global_label "JETSON_CS"
 		(shape bidirectional)
-		(at 119.38 125.73 0)
+		(at 119.38 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9540,7 +9520,7 @@
 		)
 		(uuid "265298bd-920c-4e8b-9525-4dc85b402c1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6225 125.73 0)
+			(at 133.0653 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,6 +9894,26 @@
 			)
 		)
 	)
+	(global_label "JETSON_MISO"
+		(shape bidirectional)
+		(at 81.28 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "682a3bc1-d610-43da-8823-e4982552d17b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA1"
 		(shape bidirectional)
 		(at 119.38 140.97 0)
@@ -9946,6 +9946,26 @@
 		(uuid "6c6cafd2-5c76-4aa4-b031-9256deff0d5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JETSON_MOSI"
+		(shape bidirectional)
+		(at 81.28 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ce2beaa-f75e-47b1-8d22-9e86079d7927")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,26 +10188,6 @@
 		(uuid "a9f63db0-cf71-4745-989e-281f6723731b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.28 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JETSON_RX"
-		(shape bidirectional)
-		(at 81.28 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "acb76ae3-ea44-4972-b82c-1e02e149f380")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +10604,7 @@
 	)
 	(global_label "JETSON_EN"
 		(shape bidirectional)
-		(at 119.38 128.27 0)
+		(at 119.38 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10613,7 +10613,7 @@
 		)
 		(uuid "f873d2cc-9701-4d11-b3ec-cc947842dad8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 128.27 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

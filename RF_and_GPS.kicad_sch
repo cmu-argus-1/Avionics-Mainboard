@@ -5564,6 +5564,16 @@
 		)
 		(uuid "34a3916a-d7ed-4bd4-be7c-21ac930713d3")
 	)
+	(polyline
+		(pts
+			(xy 51.054 51.308) (xy 48.768 51.308)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "34d2bd95-4780-4790-a75e-af239a88170b")
+	)
 	(wire
 		(pts
 			(xy 99.06 166.37) (xy 99.06 163.83)
@@ -6334,6 +6344,16 @@
 		)
 		(uuid "8d0d0058-7f46-44d8-ba46-48b8fc15f950")
 	)
+	(polyline
+		(pts
+			(xy 48.768 51.308) (xy 48.768 62.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8e094e7f-bb50-4e03-ab35-35015138bab0")
+	)
 	(wire
 		(pts
 			(xy 165.1 107.95) (xy 165.1 109.22)
@@ -6413,6 +6433,16 @@
 			(type default)
 		)
 		(uuid "921c7c0c-3b0b-472c-955e-35904886ed65")
+	)
+	(polyline
+		(pts
+			(xy 48.768 62.23) (xy 48.768 73.152)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9244328d-41fc-4d81-8829-700c464f1187")
 	)
 	(wire
 		(pts
@@ -6684,6 +6714,16 @@
 		)
 		(uuid "ae96a472-fc52-4a8d-a8d0-560b52cef57a")
 	)
+	(polyline
+		(pts
+			(xy 48.768 62.23) (xy 51.308 62.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "aec4d321-a1e1-42ee-8035-d70a8fac6e80")
+	)
 	(wire
 		(pts
 			(xy 191.77 146.05) (xy 186.69 146.05)
@@ -6873,6 +6913,16 @@
 			(type default)
 		)
 		(uuid "bf961290-8820-4d92-8047-0d02563d7441")
+	)
+	(polyline
+		(pts
+			(xy 51.054 62.23) (xy 48.768 62.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c0f180e5-5dd0-420d-8958-4d6630bf63ec")
 	)
 	(wire
 		(pts
@@ -7354,6 +7404,16 @@
 		)
 		(uuid "fdb73256-07ba-490c-bc83-94ed1c20e8e3")
 	)
+	(polyline
+		(pts
+			(xy 48.768 73.152) (xy 51.308 73.152)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ffa2741a-9aa2-46f4-b014-e379e65c9e3e")
+	)
 	(text "Radio, GPS, Payloads"
 		(exclude_from_sim no)
 		(at 195.326 176.784 0)
@@ -7378,6 +7438,16 @@
 		)
 		(uuid "15b5795b-5504-4aa1-a10a-37b2de2ea0a8")
 	)
+	(text "SPI 2\nRF MCU (Master)\nRF Module(Slave)"
+		(exclude_from_sim no)
+		(at 37.846 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29121481-bb6f-4864-8ba2-7429d16a5b62")
+	)
 	(text "SWD Connector"
 		(exclude_from_sim no)
 		(at 27.178 156.718 0)
@@ -7388,6 +7458,16 @@
 			(justify left bottom)
 		)
 		(uuid "408b54b6-d1aa-49d1-99cd-384e204593ab")
+	)
+	(text "SPI 1\nMainboard (Master)\nRF MCU (Slave)"
+		(exclude_from_sim no)
+		(at 37.846 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b8cbebb-ffcb-4fbf-9edc-34efb832c101")
 	)
 	(text "       RF Splitter \n(2 Way, 0deg DC-Pass)"
 		(exclude_from_sim no)

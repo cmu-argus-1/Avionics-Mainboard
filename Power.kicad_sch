@@ -6050,7 +6050,7 @@
 		)
 		(uuid "bc0489b0-b855-4912-8dbf-d9b5e28d9cd2")
 	)
-	(text "Set RF Voltage:\nVOUT=1.21*(1+R55/R59)+(3E-6*R55)\nVOUT=6.08V (R55=10K, R59=2.5K)\n"
+	(text "Set RF Voltage:\nVOUT=1.21*(1+R55/R59)+(3E-6*R55)\nVOUT=5.07V (R55=10K, R59=3.16K)\n"
 		(exclude_from_sim no)
 		(at 117.602 57.15 0)
 		(effects
@@ -10091,7 +10091,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.5K"
+		(property "Value" "3.16K"
 			(at 109.474 55.626 0)
 			(effects
 				(font

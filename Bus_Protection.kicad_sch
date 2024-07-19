@@ -3957,9 +3957,9 @@
 		)
 		(uuid "158612f8-93c1-4b06-95ea-a55781252aeb")
 	)
-	(text "SPI Bus Protection - UHF Radio"
+	(text "SPI Bus Protection - UHF Radio MCU"
 		(exclude_from_sim no)
-		(at 215.9 60.96 0)
+		(at 212.09 60.96 0)
 		(effects
 			(font
 				(size 2.159 2.159)

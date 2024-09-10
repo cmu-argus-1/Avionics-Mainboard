@@ -5916,6 +5916,17 @@
 		)
 		(uuid "2d085fc1-5fa9-42bb-aeb9-e0dcb0f9a69c")
 	)
+	(text "0x6B"
+		(exclude_from_sim no)
+		(at 263.144 103.886 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify right bottom)
+		)
+		(uuid "2df41bdc-5188-4860-8f90-afa32000dba6")
+	)
 	(text "RBF Jumpers"
 		(exclude_from_sim no)
 		(at 242.57 21.59 0)
@@ -6037,6 +6048,17 @@
 		)
 		(uuid "a40cdb70-630c-4bdd-a461-f6f16d751b41")
 	)
+	(text "I2C1 ADDR"
+		(exclude_from_sim no)
+		(at 272.542 100.584 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify right bottom)
+		)
+		(uuid "a94b9692-40ba-409d-9b1c-d973b75ac794")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 222.758 176.784 0)
@@ -6094,7 +6116,7 @@
 		)
 		(uuid "e963fe6c-5c07-4bc1-b120-c308c661f615")
 	)
-	(text "0x94"
+	(text "0x4A"
 		(exclude_from_sim no)
 		(at 263.144 156.718 0)
 		(effects

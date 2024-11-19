@@ -339,7 +339,7 @@
 		(at 26.67 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c822d0d-a46a-4315-9eb0-b1cee33dd0a2")
@@ -389,6 +389,15 @@
 		)
 		(property "DNI" "DNI"
 			(at 26.67 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 205.74 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,7 +487,7 @@
 		(at 26.67 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "97ea4e88-609c-420e-8455-ee1e948a4460")
@@ -535,6 +544,15 @@
 				(hide yes)
 			)
 		)
+		(property "exclude_from_bom" ""
+			(at 210.82 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d973a08c-137c-4ce5-8ce9-aa7dc1068d74")
 		)
@@ -552,7 +570,7 @@
 		(at 26.67 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "aac9a3dc-1b99-488d-b6f6-b3611fa08d85")
@@ -609,6 +627,15 @@
 				(hide yes)
 			)
 		)
+		(property "exclude_from_bom" ""
+			(at 200.66 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b608e4f-cb1d-42be-acd5-a8308fa3ed00")
 		)
@@ -626,7 +653,7 @@
 		(at 26.67 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cda89016-0a30-4bf8-9fe5-28b3958dc8d7")
@@ -676,6 +703,15 @@
 		)
 		(property "DNI" "DNI"
 			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 195.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4329,7 +4329,7 @@
 			)
 		)
 	)
-	(global_label "SCL3"
+	(global_label "SCL2"
 		(shape bidirectional)
 		(at 91.44 177.8 180)
 		(effects
@@ -4349,7 +4349,7 @@
 			)
 		)
 	)
-	(global_label "SCL3"
+	(global_label "SCL2"
 		(shape bidirectional)
 		(at 123.19 43.18 180)
 		(effects
@@ -4509,7 +4509,7 @@
 			)
 		)
 	)
-	(global_label "SDA3"
+	(global_label "SDA2"
 		(shape bidirectional)
 		(at 165.1 43.18 180)
 		(effects
@@ -4529,7 +4529,7 @@
 			)
 		)
 	)
-	(global_label "SDA3"
+	(global_label "SDA2"
 		(shape bidirectional)
 		(at 91.44 181.61 180)
 		(effects
@@ -8933,8 +8933,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 57.912 190.5 90)
+		(property "Value" "DNI (0R)"
+			(at 60.96 190.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +8969,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 54.61 193.548 90)
+			(at 54.61 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,8 +9008,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 57.912 176.53 90)
+		(property "Value" "DNI (0R)"
+			(at 60.706 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +9044,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 54.61 176.022 90)
+			(at 54.61 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,8 +9083,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 57.912 180.34 90)
+		(property "Value" "DNI (0R)"
+			(at 60.706 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +9119,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 54.61 183.388 90)
+			(at 54.61 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,8 +9158,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 140.462 180.34 90)
+		(property "Value" "DNI (0R)"
+			(at 143.51 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9194,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 137.16 183.388 90)
+			(at 137.16 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,8 +9233,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 140.462 186.69 90)
+		(property "Value" "DNI (0R)"
+			(at 143.51 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9269,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 137.16 189.738 90)
+			(at 137.16 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,8 +9308,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 57.912 186.69 90)
+		(property "Value" "DNI (0R)"
+			(at 60.96 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +9344,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 54.61 186.182 90)
+			(at 54.61 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,8 +11344,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 99.822 180.34 90)
+		(property "Value" "DNI (0R)"
+			(at 102.87 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11380,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 96.52 183.388 90)
+			(at 96.52 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12596,8 +12596,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 99.822 176.53 90)
+		(property "Value" "DNI (0R)"
+			(at 102.87 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,7 +12632,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 96.52 176.022 90)
+			(at 96.52 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)

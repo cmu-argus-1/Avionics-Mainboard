@@ -8847,17 +8847,6 @@
 		)
 		(uuid "feb0f435-83fb-4ac6-82d4-45e31f598620")
 	)
-	(text "SDA3"
-		(exclude_from_sim no)
-		(at 65.786 150.114 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "0de09db4-c82e-40b7-84e0-0e2ddd01555d")
-	)
 	(text "A3"
 		(exclude_from_sim no)
 		(at 128.27 133.604 0)
@@ -8878,7 +8867,7 @@
 		)
 		(uuid "189cc4db-9f53-49a4-8111-642be46e91b6")
 	)
-	(text "I2C3\nSERCOM1"
+	(text "RADIO GPS\nSERCOM1"
 		(exclude_from_sim no)
 		(at 64.516 150.368 0)
 		(effects
@@ -8932,17 +8921,6 @@
 			(justify right bottom)
 		)
 		(uuid "34797bd5-2095-44d3-9674-874c9f07bf46")
-	)
-	(text "SCL3"
-		(exclude_from_sim no)
-		(at 65.786 151.384 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "39062e8e-f812-4d90-81ab-6166f2e2d8c4")
 	)
 	(text "0x69"
 		(exclude_from_sim no)
@@ -9528,6 +9506,26 @@
 			)
 		)
 	)
+	(global_label "UHF_RX"
+		(shape bidirectional)
+		(at 81.28 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41c9f59e-1f67-4bf5-a948-b8bd27ad237e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WDT_WDI"
 		(shape input)
 		(at 93.98 49.53 0)
@@ -9992,26 +9990,6 @@
 			)
 		)
 	)
-	(global_label "SDA3"
-		(shape bidirectional)
-		(at 81.28 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3756886-ca16-47a4-b844-9e73b3e1c07d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FLASH_IO3"
 		(shape bidirectional)
 		(at 257.81 146.05 0)
@@ -10336,18 +10314,18 @@
 			)
 		)
 	)
-	(global_label "SCL3"
+	(global_label "UHF_TX"
 		(shape bidirectional)
-		(at 81.28 151.13 180)
+		(at 81.28 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e0a52097-4938-4e19-a6af-e729490b000f")
+		(uuid "dbfddeda-3ac0-4378-b0df-28f6315351d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 151.13 0)
+			(at 81.28 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
